@@ -30,6 +30,8 @@ export class Index {
 
       console.log('app.config.keys', this.ctx.app.config.keys)
       console.log('app.config.test', this.ctx.app.config.test)
+      console.log('app.config.testA', this.ctx.app.config.testA)
+
 
       const stream = await render<Readable>(this.ctx, {
         stream: true
